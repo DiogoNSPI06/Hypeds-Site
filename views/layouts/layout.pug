@@ -1,0 +1,50 @@
+doctype html
+html(lang="pt-BR")
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(name="theme-color" content="#942ba5")
+    meta(name="keywords" content= keywords || "discord, bot, discord-bot, hyped, hypeds, hyped")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@diogonspi")
+    meta(name="author" content="Hypeds")
+    meta(property="og:site_name" content= title || "HYPED | HypedBot")
+    meta(property="og:keywords" content= keywords || "discord, bot, discord-bot, hyped, hypeds, hyped")
+    meta(property="og:description" content= description || "Conheça o Hyped. Não é um simples servidor de Discord.")
+    meta(property="og:url" content="https://www.hypeds.com/")
+    meta(property="og:image" content="https://imgur.com/r00LLTG.png")
+    link(rel="icon" href="https://imgur.com/r00LLTG.png" type="image/png" sizes="128x128")
+    link(rel="stylesheet" href="/lib/bulma/bulma.min.css")
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/Hyped.css')
+    link(rel='stylesheet', href='/css/nicepage.css')
+    script(src='/js/jquery.js')
+    script(src='/js/nicepage.js')
+
+  body
+     nav.navbar.is-fixed-top
+       .container
+         .navbar-brand
+           a.navbar-logo(href="/" oncontextmenu="return false;")
+           span.navbar-burger.burger(data-target="navbar-menu")
+       .navbar-menu#navbar-menu
+            .navbar-start
+            #navbar-mid
+              a.navbar-item.navbar-on(href="/") Home
+              a.navbar-item.navbar-on(href="/hypedbot") Hyped
+              a.navbar-item.navbar-on(href="/hypedmusic") Hyped Music
+              a.navbar-item.navbar-on(href="/discord") Discord
+  block content
+    footer
+      nav.container.level
+        .level-left
+           .level-item
+            a(href="/discord")
+            img#discord(src="/images/discord.png")
+              | Discord
+            a(href="/addbot")
+            img#hyped(src="/images/hyped.png")
+              | Adicione o Hyped
+        .level-right
+          .level-item
+          a(href="/tos") TOS
