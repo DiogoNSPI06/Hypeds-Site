@@ -19,6 +19,7 @@ var contratoRouter = require('./routes/contrato');
 var aceitarRouter = require('./routes/aceitar');
 var transfurRouter = require('./routes/transfur');
 var replRouter = require('./routes/repl');
+var mineRouter = require('./routes/minecraft')
 
 var app = express();
 
@@ -81,6 +82,7 @@ app.use('/', contratoRouter);
 app.use('/', aceitarRouter);
 app.use('/', transfurRouter);
 app.use('/', replRouter);
+app.use('/', mineRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -1,0 +1,152 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/mine.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 80px 788px 0 20px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 0 810px 0 29px;
+}
+
+.u-section-1 .u-text-3 {
+  background-image: none;
+  font-weight: 700;
+  margin: 6px 844px 0 63px;
+}
+
+.u-section-1 .u-text-4 {
+  font-size: 1.5rem;
+  margin: 50px 88px 0 29px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 166px 63px 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 608px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 639px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 706px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 388px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 419px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 486px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    margin-right: 208px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 239px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 306px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 39px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 106px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 438px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 72px 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  width: 323px;
+  margin: 36px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 36px auto 60px;
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-left: -51px;
+    margin-right: -51px;
+  }
+}
