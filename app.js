@@ -22,6 +22,8 @@ var aceitarRouter = require('./routes/aceitar');
 var transfurRouter = require('./routes/transfur');
 var replRouter = require('./routes/repl');
 var mineRouter = require('./routes/minecraft')
+var youtubeRouter = require('./routes/youtube')
+var instaRouter = require('./routes/instagram')
 
 var app = express();
 
@@ -85,6 +87,8 @@ app.use('/', aceitarRouter);
 app.use('/', transfurRouter);
 app.use('/', replRouter);
 app.use('/', mineRouter);
+app.use('/', youtubeRouter);
+app.use('/', instaRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

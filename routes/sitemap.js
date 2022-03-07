@@ -13,27 +13,27 @@ router.get("/sitemap", (req, res) => {
 
 <url>
   <loc>https://www.hypeds.com/</loc>
-  <lastmod>2021-09-08T23:53:55+00:00</lastmod>
+  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.hypeds.com/hypedbot</loc>
-  <lastmod>2021-09-08T23:53:55+00:00</lastmod>
+  <loc>https://www.hypeds.com/hypedmusic</loc>
+  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.hypeds.com/hypedmusic</loc>
-  <lastmod>2021-09-08T23:53:55+00:00</lastmod>
+  <loc>https://www.hypeds.com/minecraft</loc>
+  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hypeds.com/discord</loc>
-  <lastmod>2021-09-08T23:53:55+00:00</lastmod>
+  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hypeds.com/tos</loc>
-  <lastmod>2021-09-08T23:53:55+00:00</lastmod>
+  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
