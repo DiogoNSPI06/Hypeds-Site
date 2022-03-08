@@ -1,6 +1,92 @@
-extends layouts/layout
-
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+doctype html
+head
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(charset='utf-8')
+  meta(name='keywords' content='404')
+  meta(name='description' content='')
+  meta(name='page_type' content='np-template-header-footer-from-plugin')
+  title HYPED | Error
+  link(rel='stylesheet' href='css/hmnicepage.css' media='screen')
+  link(rel='stylesheet' href='css/404.css' media='screen')
+  script.u-script(type='text/javascript' src='js/uwujquery.js' defer='')
+  script.u-script(type='text/javascript' src='js/uwunicepage.js' defer='')
+  link(rel='icon' href='https://imgur.com/r00LLTG.png' type='image/png')
+  meta(name='generator' content='Nicepage 4.5.4, nicepage.com')
+  link#u-theme-google-font(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Bai+Jamjuree:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i')
+  script(type='application/ld+json').
+    {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "logo": "images/hypedavatar.png"
+    }
+  meta(name='theme-color' content='#e84a90')
+  meta(property='og:title' content='404')
+  meta(property='og:type' content='website')
+header#sec-dd13.u-align-center-sm.u-align-center-xs.u-clearfix.u-grey-70.u-header.u-header
+  .u-clearfix.u-sheet.u-sheet-1
+    a.u-image.u-logo.u-image-1(href='#' data-image-width='1024' data-image-height='1024')
+      img.u-logo-image.u-logo-image-1(src='images/hypedavatar.png')
+    nav.u-align-left.u-menu.u-menu-dropdown.u-offcanvas.u-menu-1(data-responsive-from='MD')
+      .menu-collapse(style='font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;')
+        a.u-button-style.u-custom-active-border-color.u-custom-active-color.u-custom-border.u-custom-border-color.u-custom-borders.u-custom-hover-border-color.u-custom-hover-color.u-custom-left-right-menu-spacing.u-custom-padding-bottom.u-custom-text-active-color.u-custom-text-color.u-custom-text-hover-color.u-custom-top-bottom-menu-spacing.u-nav-link(href='#' style='padding: 4px 0px; font-size: calc(1em + 8px);')
+          svg.u-svg-link(preserveaspectratio='xMidYMin slice' viewbox='0 0 302 302' style='')
+            use(xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#svg-8a8f')
+          svg#svg-8a8f.u-svg-content(xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewbox='0 0 302 302' style='enable-background:new 0 0 302 302;' xml:space='preserve')
+            g
+              rect(y='36' width='302' height='30')
+              rect(y='236' width='302' height='30')
+              rect(y='136' width='302' height='30')
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+            g
+      .u-custom-menu.u-nav-container
+        ul.u-nav.u-spacing-30.u-unstyled.u-nav-1
+          li.u-nav-item
+            a.u-border-2.u-border-active-palette-2-base.u-border-hover-palette-2-base.u-border-no-left.u-border-no-right.u-border-no-top.u-button-style.u-nav-link.u-text-active-palette-2-base.u-text-grey-90.u-text-hover-grey-90(href='/' style='padding: 10px 26px;') Home
+          li.u-nav-item
+            a.u-border-2.u-border-active-palette-2-base.u-border-hover-palette-2-base.u-border-no-left.u-border-no-right.u-border-no-top.u-button-style.u-nav-link.u-text-active-palette-2-base.u-text-grey-90.u-text-hover-grey-90(href='/hypedmusic' style='padding: 10px 26px;') Hyped Music
+          li.u-nav-item
+            a.u-border-2.u-border-active-palette-2-base.u-border-hover-palette-2-base.u-border-no-left.u-border-no-right.u-border-no-top.u-button-style.u-nav-link.u-text-active-palette-2-base.u-text-grey-90.u-text-hover-grey-90(href='/minecraft' style='padding: 10px 26px;') Minecraft
+      .u-custom-menu.u-nav-container-collapse
+        .u-align-center.u-black.u-container-style.u-inner-container-layout.u-opacity.u-opacity-95.u-sidenav
+          .u-inner-container-layout.u-sidenav-overflow
+            .u-menu-close
+            ul.u-align-center.u-nav.u-popupmenu-items.u-unstyled.u-nav-2
+              li.u-nav-item
+                a.u-button-style.u-nav-link(href='/' style='padding: 10px 26px;') Home
+              li.u-nav-item
+                a.u-button-style.u-nav-link(href='/hypedmusic' style='padding: 10px 26px;') Hyped Music
+              li.u-nav-item
+                a.u-button-style.u-nav-link(href='/minecraft' style='padding: 10px 26px;') Minecraft
+        .u-black.u-menu-overlay.u-opacity.u-opacity-70
+section#sec-8258.u-align-center.u-clearfix.u-white.u-section-1
+  .u-clearfix.u-sheet.u-valign-middle.u-sheet-1
+    h1.u-text.u-text-default.u-text-1 404
+    p.u-text.u-text-default.u-text-not-found-message.u-text-2 #{message}
+    p.u-text.u-text-3 #{error.stack}
+    a.u-active-white.u-black.u-border-2.u-border-active-black.u-border-black.u-border-hover-black.u-btn.u-button-style.u-hover-white.u-text-active-black.u-text-body-alt-color.u-text-hover-black.u-btn-1(href='/') V&aacute; para a Home
+footer#sec-5185.u-align-center.u-clearfix.u-footer.u-grey-80.u-footer
+  .u-clearfix.u-sheet.u-sheet-1
+    p.u-small-text.u-text.u-text-variant.u-text-1 Links &Uacute;teis:
+    p.u-small-text.u-text.u-text-variant.u-text-2
+      a.u-active-none.u-border-none.u-btn.u-button-link.u-button-style.u-hover-none.u-none.u-text-palette-2-light-1.u-btn-1(href='https://stats.uptimerobot.com/1BnoXi6Mgp' target='_blank') StatusPage
+    h3.u-text.u-text-3
+      a.u-active-none.u-border-none.u-btn.u-button-link.u-button-style.u-hover-none.u-none.u-text-palette-2-light-1.u-btn-2(href='https://www.hypeds.com/tos') TOS
+    p.u-small-text.u-text.u-text-variant.u-text-4
+      a.u-active-none.u-border-none.u-btn.u-button-link.u-button-style.u-hover-none.u-none.u-text-palette-2-light-1.u-btn-3(href='https://api.hypeds.com' target='_blank') API
+    p.u-small-text.u-text.u-text-variant.u-text-5 &copy; HYPED GROUP 2022
+    p.u-small-text.u-text.u-text-variant.u-text-6
+      a.u-active-none.u-border-none.u-btn.u-button-link.u-button-style.u-hover-none.u-none.u-text-palette-2-light-1.u-btn-4(href='https://www.hypeds.com/discord') Discord
