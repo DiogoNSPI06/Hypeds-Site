@@ -24,6 +24,7 @@ var replRouter = require('./routes/repl');
 var mineRouter = require('./routes/minecraft')
 var youtubeRouter = require('./routes/youtube')
 var instaRouter = require('./routes/instagram')
+var docsRouter = require('./routes/docs')
 
 var app = express();
 
@@ -89,6 +90,7 @@ app.use('/', replRouter);
 app.use('/', mineRouter);
 app.use('/', youtubeRouter);
 app.use('/', instaRouter);
+app.use('/', docsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

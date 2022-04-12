@@ -1,8 +1,8 @@
 const router = require('express').Router()
 
-router.get('/minecraft', (req, res) => {
+router.get('/docs', (req, res) => {
   //res.render('minecraft', { title: 'HYPED | Minecraft Server' });
-  res.sendFile('/home/runner/hypedscom/html/Minecraft.html')
+  res.sendFile('/home/runner/hypedscom/html/Docs.html')
 })
 
 module.exports = router;
