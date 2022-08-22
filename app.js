@@ -9,6 +9,7 @@ const helmet = require("helmet");
 const session = require("express-session");
 
 var indexRouter = require('./routes/index');
+var statsRouter = require('./routes/stats')
 var usersRouter = require('./routes/users');
 var discordRouter = require('./routes/discord');
 var hypedRouter = require('./routes/hypedbot');
@@ -76,6 +77,7 @@ app.use(session({
 
 //Routes
 app.use('/', indexRouter);
+app.use('/', statsRouter);
 app.use('/users', usersRouter);
 app.use('/', hypedRouter);
 app.use('/', discordRouter);

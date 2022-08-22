@@ -13,27 +13,52 @@ router.get("/sitemap", (req, res) => {
 
 <url>
   <loc>https://www.hypeds.com/</loc>
-  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
+  <lastmod>2022-06-16T19:25:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.hypeds.com/hypedmusic</loc>
-  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
+  <lastmod>2022-06-16T19:28:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hypeds.com/</loc>
+  <lastmod>2022-06-16T19:25:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hypeds.com/hypedmusic</loc>
+  <lastmod>2022-06-16T19:28:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://e.hypeds.com/</loc>
+  <lastmod>2022-05-27T03:13:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://api.hypeds.com/v5/oauth/login</loc>
+  <lastmod>2022-05-27T03:13:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hypeds.com/minecraft</loc>
-  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
+  <lastmod>2022-06-16T19:26:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hypeds.com/docs</loc>
+  <lastmod>2022-06-16T19:28:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hypeds.com/discord</loc>
-  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
+  <lastmod>2022-06-16T19:29:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.hypeds.com/tos</loc>
-  <lastmod>2022-03-06T13:09:22+00:00</lastmod>
+  <lastmod>2022-05-27T03:13:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
