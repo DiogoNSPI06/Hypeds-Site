@@ -28,6 +28,12 @@ var instaRouter = require('./routes/instagram')
 var docsRouter = require('./routes/docs');
 var snftRouter = require('./routes/snft')
 
+var hypedShareItHome = require('./routes/shareIt/homePage.js')
+var hypedShareItProfiles = require('./routes/shareIt/userProfile.js')
+var hypedShareItPosts = require('./routes/shareIt/viewPost.js')
+var hypedShareItImages = require('./routes/shareIt/images.js')
+var hypedShareItNotifications = require('./routes/shareIt/notifications.js')
+
 var app = express();
 
 // view engine setup
@@ -95,6 +101,12 @@ app.use('/', youtubeRouter);
 app.use('/', instaRouter);
 app.use('/', docsRouter);
 app.use('/', snftRouter);
+
+app.use('/', hypedShareItHome);
+app.use('/beta/', hypedShareItProfiles);
+app.use('/beta/', hypedShareItPosts);
+app.use('/', hypedShareItImages);
+app.use('/', hypedShareItNotifications);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

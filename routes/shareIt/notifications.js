@@ -1,9 +1,9 @@
 const router = require('express').Router()
 const db = require('quick.db')
 
-router.get('/user/:uid', (req, res) => {
+router.get('/notifications', (req, res) => {
   
-  db.add(`Clicks_UserID_${req.params.uid}`, 1)
+  db.add("Clicks_Notifications", 1)
 })
 
 module.exports = router;
