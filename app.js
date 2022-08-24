@@ -103,8 +103,8 @@ app.use('/', docsRouter);
 app.use('/', snftRouter);
 
 app.use('/', hypedShareItHome);
-app.use('/beta/', hypedShareItProfiles);
-app.use('/beta/', hypedShareItPosts);
+app.use('/', hypedShareItProfiles);
+app.use('/', hypedShareItPosts);
 app.use('/', hypedShareItImages);
 app.use('/', hypedShareItNotifications);
 
