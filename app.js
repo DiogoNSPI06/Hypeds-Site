@@ -27,6 +27,11 @@ var youtubeRouter = require('./routes/youtube')
 var instaRouter = require('./routes/instagram')
 var docsRouter = require('./routes/docs');
 var snftRouter = require('./routes/snft')
+var loginRouter = require('./routes/login')
+var redesRouter = require('./routes/redes')
+var dashboardRouter = require('./routes/dashboard')
+
+var registerRouter = require('./routes/register')
 
 var hypedShareItHome = require('./routes/shareIt/homePage.js')
 var hypedShareItProfiles = require('./routes/shareIt/userProfile.js')
@@ -82,6 +87,10 @@ app.use(session({
 }));
 
 //Routes
+app.use('/', registerRouter)
+app.use('/', dashboardRouter)
+app.use('/', redesRouter)
+app.use('/', loginRouter)
 app.use('/', indexRouter);
 app.use('/', statsRouter);
 app.use('/users', usersRouter);
